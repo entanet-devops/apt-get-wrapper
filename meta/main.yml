@@ -1,0 +1,15 @@
+galaxy_info:
+  author: DevOps
+  description: Install apt-get wrapper 
+  company: Entanet
+
+  license: BSD
+
+  min_ansible_version: 2.4
+
+  galaxy_tags:
+    - apt-get
+    - system
+    - entanet
+
+dependencies: []

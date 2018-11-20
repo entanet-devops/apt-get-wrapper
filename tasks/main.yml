@@ -1,0 +1,7 @@
+- name: Install apt-get wrapper
+  template:
+    src: apt-get.j2
+    dest: /usr/local/sbin/apt-get
+    mode: 0755
+    owner: root
+    group: root
